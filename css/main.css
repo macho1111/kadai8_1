@@ -234,8 +234,17 @@ body {
 /* メニューアイテムコンポーネント */
 .menu_list {
   display: flex;
+  
+}
+
+.menu_list_flex {
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.menu_list_flex2 {
+  flex-direction: column;
+  
 }
 
 .menu_list_recommended {
@@ -249,6 +258,13 @@ body {
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
+}
+.menu_item_size {
+  width: 49%;
+}
+.menu_item_size2 {
+  width: 100%;
+  
 }
 .menu_item_content {
   width: 45%;
